@@ -1,0 +1,10 @@
+.fixedInCenter{
+    background-color: blue;
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    
+
+}

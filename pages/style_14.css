@@ -1,0 +1,43 @@
+.back{
+    background-color: aqua;
+    border: green 2px solid;
+    padding: 0;
+}
+.textSide{
+    right: 0;
+    margin: 0;
+    margin-left: 20%;
+    background-color: darkgray;
+}
+ul{
+    box-sizing: border-box;
+    margin: 0;
+    width: 20%;
+    max-width: 20%;
+    background-color: bisque;
+    float: left;
+    
+}
+
+@media (max-width: 530px ){
+    .textSide{
+        right: 0;
+        margin-top: 4%;
+        margin-left: 0;
+        background-color: darkgray;
+    }
+    ul{
+        display: inline-block;
+        margin-top:4%;
+        width: 100%;
+        max-width: 100%;
+        background-color: bisque;
+        float:none;
+        
+    }
+    li{
+        margin-top: 2%;
+        padding: 3px;
+        display: inline;
+    }
+}

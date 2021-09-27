@@ -1,0 +1,53 @@
+.list{
+    margin-top: 0;
+    height: 100px;
+    width: 30%;
+    background-color: bisque;
+    float: left;
+}
+body{
+    top:0;
+    margin: 0;
+    padding: 0;
+}
+.textSide{
+    background-color: darkgray;
+    margin-left: 30%;
+    top: 0;
+    margin-top: 0;
+    display: block;
+}
+.imgAndText{
+    display: block;
+    margin: 0;
+}
+.text1{
+    display: block;
+    top: 0;
+    margin-top: 0;
+    max-width: 40em;
+    max-height: 40em;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+.text2{
+    display: block;
+    top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    clear: right;
+}
+.back{
+    background-color: aqua;
+    top: 0;
+    margin: 5px;
+    padding: 0;
+    border: solid 1px green;
+
+}
+img{
+    float: right;
+    top: 0;
+    right: 0;
+    width: 50%;
+}

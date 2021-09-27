@@ -1,0 +1,58 @@
+.list{
+    margin-top: 0;
+    height: 100px;
+    width: 20%;
+    background-color: bisque;
+    float: left;
+}
+body{
+    top:0;
+    margin: 0;
+    padding: 0;
+}
+.text{
+    background-color: gray;
+    display: block;
+    top: 0;
+    margin-left: 20.5%;
+    margin-right: 3px;
+    margin-top: 0;
+}
+.back{
+    background-color: aqua;
+    top: 0;
+    margin: 5px;
+    padding: 0;
+    border: solid 1px green;
+}
+
+@media (max-width:530px){
+    .list{
+        margin-top: 0;
+        height: 100px;
+        width: 150px;
+        float: none;
+    }
+    .list ul{
+        margin-top: 0;
+        padding-top: 20px;
+    }
+    .text{
+        background-color: gray;
+        display: block;
+        width: 80%;
+        margin: 0;
+    }
+    body{
+        top:0;
+        margin: 0;
+        padding: 0;
+    }
+    .back{
+        background-color: aqua;
+        top: 0;
+        margin: 5px;
+        padding: 0;
+        
+    }
+}

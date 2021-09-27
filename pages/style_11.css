@@ -1,0 +1,16 @@
+img{
+    top: 0;
+    right: 0;
+
+}
+.block{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    border-style: solid;
+    border-color: green;
+    width: 100%;
+}
+.block p{
+    font-size: 10px;
+}

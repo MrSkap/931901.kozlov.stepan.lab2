@@ -1,0 +1,48 @@
+.staticBlueviolet{
+    position: static;
+    background-color: blueviolet;
+    display: block;
+    width: 150px;
+    height: 100px;
+}
+.relativeRed{
+    position: relative;
+    background-color: darkred;
+    display: block;
+    width: 150px;
+    height: 100px;
+}
+.relativePeru{
+    position: relative;
+    background-color: peru;
+    width: 150px;
+    height: 100px;
+    top: -40px;
+    left: 20px;
+}
+.relativeIndianred{
+    position: relative;
+    background-color: indianred;
+    width: 500px;
+    height: 400px;
+}
+.absoluteRelativePurple{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top:150px;
+    right: 0;
+    background-color: purple;
+}
+.fixedGreen{
+    position: fixed;
+    background-color: forestgreen;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+}
+
+body{
+    color: white;
+}

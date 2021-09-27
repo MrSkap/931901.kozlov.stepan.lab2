@@ -1,0 +1,39 @@
+.leftSide{
+    float: left;
+    width: 200px;
+    height: 400px;
+    margin: 0;
+    top: 0;
+    background-color: aquamarine;
+}
+.list{
+    margin-top: 0;
+    width: 200px;
+    background-color: bisque;
+    float: left;
+}
+footer{
+    position:fixed;
+    display: block;
+    bottom: 0px;
+    height: 5%;
+    margin: 0;
+    width:100%;
+    background-color: forestgreen;
+}
+body{
+    top:0;
+    margin: 0;
+    padding: 0;
+}
+.text{
+    background-color: darkgray;
+    display: block;
+    margin-left: 200px;
+}
+.back{
+    background-color: aqua;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
